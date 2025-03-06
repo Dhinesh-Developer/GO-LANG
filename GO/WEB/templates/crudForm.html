@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Information</title>
+    <style>
+        #container{
+            background-color: blue;
+            color: azure;
+            margin: 50px;
+            padding: 10px;
+            width: 300px;
+            height: 300px;
+            border-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form action="/" method="post">
+            <table>
+                <tr>
+                    <td><label for="Sid">Enter the ID</label></td>
+                    <td><input type="text" name="Sid"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Enter the Name</label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="course">Enter the Course</label></td>
+                    <td><input type="text" name="course"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="insert"></td>
+           
+                </tr>
+                <tr>
+                    <td><input type="submit" value="read"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="update"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="delete"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
